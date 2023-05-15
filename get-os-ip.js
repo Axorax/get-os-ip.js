@@ -1,0 +1,1 @@
+import{networkInterfaces as e}from"os";export function getOsIp(t="v6"){let r=e();for(let f of Object.keys(r))for(let l of r[f])if("v4"===t&&"IPv4"===l.family&&!l.internal||"v6"===t&&"IPv6"===l.family&&!l.internal)return l.address;return null}export default getOsIp

@@ -1,0 +1,30 @@
+{
+  "name": "get-os-ip",
+  "version": "1.0.0",
+  "description": "Get local IPv4 or IPv6 address",
+  "main": "get-os-ip.js",
+  "exports": {
+    "import": "./get-os-ip.js",
+    "require": "./get-os-ip.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/get-os-ip.js.git"
+  },
+  "keywords": [
+    "get-local-ip",
+    "get-os-ip",
+    "ipv4",
+    "ipv6",
+    "ip",
+    "local-ip",
+    "os-ip"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/get-os-ip.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/get-os-ip.js#readme"
+}
